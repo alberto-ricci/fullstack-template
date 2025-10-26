@@ -12,28 +12,19 @@
 			"date": "2025-10-26",
 			"changes": [
 				{
-					"description": "Refactored Homepage into modular components (Header, TechStackCard, ChangelogCard, TagBrowserCard, LogoutButton)",
+					"description": "Refactored homepage into modular components",
 					"tag": "Feature"
 				},
 				{
-					"description": "Introduced shared CardWrapper component for consistent layout and styling across cards",
+					"description": "Added shared CardWrapper for unified card layout",
 					"tag": "UI"
 				},
 				{
-					"description": "Created local inline SVG icons for React, Tailwind, Supabase, and React Router",
+					"description": "Replaced external icons with local inline SVG set",
 					"tag": "UI"
 				},
 				{
-					"description": "Added icons folder with individual reusable React components for all tech stack icons",
-					"tag": "Feature"
-				},
-
-				{
-					"description": "Ensured consistent card sizing and spacing using grid layout with items-stretch",
-					"tag": "UI"
-				},
-				{
-					"description": "Added changelog entries for today's refactoring and icon updates",
+					"description": "Linked tech stack to live package.json versions",
 					"tag": "Data"
 				}
 			]
@@ -42,15 +33,11 @@
 			"date": "2025-10-25",
 			"changes": [
 				{
-					"description": "Added Browse by Tag feature to filter changelog entries dynamically",
+					"description": "Added tag filtering to browse specific changes",
 					"tag": "Feature"
 				},
 				{
-					"description": "Introduced tag-based color system and filtering logic",
-					"tag": "UI"
-				},
-				{
-					"description": "Refined card layout to maintain consistent height and spacing",
+					"description": "Improved tag color system and layout consistency",
 					"tag": "UI"
 				}
 			]
@@ -59,19 +46,15 @@
 			"date": "2025-10-24",
 			"changes": [
 				{
-					"description": "Removed Ant Design and replaced with custom Tailwind UI",
+					"description": "Replaced Ant Design with custom Tailwind UI",
 					"tag": "UI"
 				},
 				{
-					"description": "Added Supabase authentication (Register & Login)",
+					"description": "Integrated Supabase authentication",
 					"tag": "Auth"
 				},
 				{
-					"description": "Modularized form fields for reuse and clarity",
-					"tag": "Feature"
-				},
-				{
-					"description": "Implemented validation and user feedback",
+					"description": "Added validation and modular form components",
 					"tag": "Feature"
 				}
 			]
