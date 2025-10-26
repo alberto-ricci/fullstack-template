@@ -1,0 +1,80 @@
+{
+	"techStack": [
+		{ "name": "React + Vite", "icon": "react" },
+		{ "name": "Tailwind CSS", "icon": "tailwind" },
+		{ "name": "React Router DOM", "icon": "router" },
+		{ "name": "Supabase", "icon": "supabase" },
+		{ "name": "Lucide React Icons", "icon": "lucide" },
+		{ "name": "Reusable Modular Components", "icon": "component" }
+	],
+	"changelog": [
+		{
+			"date": "2025-10-26",
+			"changes": [
+				{
+					"description": "Refactored Homepage into modular components (Header, TechStackCard, ChangelogCard, TagBrowserCard, LogoutButton)",
+					"tag": "Feature"
+				},
+				{
+					"description": "Introduced shared CardWrapper component for consistent layout and styling across cards",
+					"tag": "UI"
+				},
+				{
+					"description": "Created local inline SVG icons for React, Tailwind, Supabase, and React Router",
+					"tag": "UI"
+				},
+				{
+					"description": "Added icons folder with individual reusable React components for all tech stack icons",
+					"tag": "Feature"
+				},
+
+				{
+					"description": "Ensured consistent card sizing and spacing using grid layout with items-stretch",
+					"tag": "UI"
+				},
+				{
+					"description": "Added changelog entries for today's refactoring and icon updates",
+					"tag": "Data"
+				}
+			]
+		},
+		{
+			"date": "2025-10-25",
+			"changes": [
+				{
+					"description": "Added Browse by Tag feature to filter changelog entries dynamically",
+					"tag": "Feature"
+				},
+				{
+					"description": "Introduced tag-based color system and filtering logic",
+					"tag": "UI"
+				},
+				{
+					"description": "Refined card layout to maintain consistent height and spacing",
+					"tag": "UI"
+				}
+			]
+		},
+		{
+			"date": "2025-10-24",
+			"changes": [
+				{
+					"description": "Removed Ant Design and replaced with custom Tailwind UI",
+					"tag": "UI"
+				},
+				{
+					"description": "Added Supabase authentication (Register & Login)",
+					"tag": "Auth"
+				},
+				{
+					"description": "Modularized form fields for reuse and clarity",
+					"tag": "Feature"
+				},
+				{
+					"description": "Implemented validation and user feedback",
+					"tag": "Feature"
+				}
+			]
+		}
+	]
+}
